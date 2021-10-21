@@ -1,0 +1,97 @@
+@media(prefers-color-scheme: dark) {
+    :root {
+        --body: #313131;
+        --black: #0C0C0C;
+        --btns: transparent;
+        --light-transparent: transparent;
+        --text: #fff;
+        --dropmenu: #0C0C0C;
+        --shadow: #ffffff26;
+    }
+
+    .logo {
+        background: center / cover no-repeat url("../img/Logo_light.png");
+    }
+
+    .form-control::placeholder {
+        color: #BBBBBB;
+    }
+
+    .stock-main {
+        filter: drop-shadow(-10px 5px 4px rgba(255, 255, 255, 0.4));
+    }
+
+    .stock-secondary,
+    .stock-small {
+        filter: drop-shadow(-10px 0px 4px rgba(255, 255, 255, 0.3));
+    }
+
+    .ps5_logo {
+        background-image: url("../img/ps5_dark-mode.png");
+    }
+}
+
+@media(min-width: 1400px) {
+    .stock-small {
+        width: 300px;
+    }
+}
+
+@media(max-width: 1400px) {
+    .stock-small.two {
+        display: none;
+    }
+}
+
+@media(max-width: 1200px) {
+    .carousel-indicators {
+        top: 60%;
+    }
+}
+
+@media(max-width: 770px) {
+    .carousel-indicators {
+        top: 50%;
+    }
+}
+
+@media(max-width: 572px) {
+    .title {
+        font-size: 42px;
+    }
+
+    .intro_info {
+        row-gap: 70px;
+    }
+
+    .card {
+        max-width: 300px;
+    }
+}
+
+@media(max-width: 430px) {
+    .btn .bi-search::after {
+        content: '';
+        margin-left: 0;
+    }
+
+    .title {
+        font-size: 36px;
+        margin-top: 40px;
+    }
+
+    .intro_info {
+        row-gap: 40px;
+    }
+
+    .carousel-indicators {
+        top: 45%;
+    }
+
+    .carousel-indicators {
+        column-gap: 15px;
+    }
+    #computers .card-img-shadow {
+        width: 100%;
+    }
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Noto Sans";
+    src: url("../font/NotoSansDisplay-SemiBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Noto Sans";
+    src: url("../font/NotoSansDisplay-Light.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Noto Sans";
+    src: url("../font/NotoSansDisplay-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Noto Sans";
+    src: url("../font/NotoSansDisplay-Regular.ttf");
+    font-weight: 400;
+}
